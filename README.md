@@ -5,7 +5,7 @@ Author: Juan Vicente Herrera Ruiz de Alejo
 GitHub: @juanviz
 
 Affiliation: Universidad Pontifica Comillas - ICAI
-
+ 
 
 This repository contains example Python code designed to run on Google Cloud Functions. It includes two sample functions: one triggered by Cloud Storage events and another that responds to HTTP requests.
 
