@@ -4,7 +4,7 @@ def process_file(event, context):
     """Triggered when a file is uploaded to Cloud Storage."""
     file_name = event['name']
     bucket_name = event['bucket']
-    
+     
     print(f"File {file_name} uploaded to {bucket_name}. Processing...")
 
     storage_client = storage.Client()
